@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    line-height: 40px;
+    padding:70px 300px;
+    margin-top: 50px;
+}
+.form-title {
+    color: #F01212;
+    font-size: 26px;
+}
+.container-form {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.form-row{
+    display: flex;
+}
+.form-label {
+    /* text-align: left; */
+    width: 15%;
+}
+
+.form-input {
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border: 1px solid;
+}
+.form-label:nth-child(3) {
+    margin-left:20% ;
+}
+
+#name {
+    width: 30%;
+}
+#email {
+    width: 30%;
+}
+#phone {
+    width: 30%;
+}
+#guestnumber {
+    width: 30%;
+}
+#input-content {
+    height: 150px;
+}
+.submit {
+    padding: 10px 0;
+}
+.submit input{
+    background-color: rgba(63, 169, 228, 0.25);
+    color: #2192FF;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #2192FF;
+    padding: 10px 30px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.submit input:hover{
+    opacity: 0.8;
+}
+.form-footer {
+    padding: 30px 0;
+}
+.footer-title {
+    color: #2192FF    ;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer-text{
+    font-weight: bold;
+}
+.phone-color {
+    color: #F01212;
+    font-weight: bold;
+}
+.validation {
+    color: #F01212;
+}

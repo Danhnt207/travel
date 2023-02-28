@@ -1,0 +1,148 @@
+
+.content {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left {
+    width: 40%;
+    margin-left: 30px;
+}
+.left__title {
+    color: var(--primary-color);
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+.right {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.right__item {
+    margin-bottom: 1.4rem;
+}
+.right__item--title {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: block;
+}
+
+.right__item-input {
+    border: 1px solid var(--primary-color);
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 6px;
+}
+.right__item-input:focus {
+    outline: 1px solid var(--primary-color);
+}
+.input {
+    position: relative;
+    height: 40px;
+    max-width: 100%;
+}
+
+.input span {
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    cursor: default;
+}
+.right__policy {
+    display: flex;
+    align-items: center;
+}
+.right__policy-check {
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    color: var(--blue-color);
+}
+.right__policy-desc {
+    font-size: 1.3rem;
+    margin-left: 4px;
+}
+.right__policy-desc a {
+    font-size: 1.3rem;
+    color: var(--blue-color);
+    text-decoration: none;
+}
+.right__policy-desc a:hover {
+    text-decoration: underline;
+}
+
+.right__button {
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-top: 1.8rem;
+}
+
+.right__button button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    color: var(--white-color);
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.right__line {
+    position: relative;
+    display: block;
+    content: "";
+    background-color: #000;
+    height: 0.5px;
+    width: 380px;
+    margin-top: 3rem;
+}
+.right__line-or {
+    position: absolute;
+    font-size: 1.3rem;
+    top: -8px;
+    left: 35%;
+    background-color: var(--white-color);
+}
+
+.right__otherapp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.right__app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 4.4rem;
+    background-color: var(--white-color);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.right__app img {
+    width: 30px;
+    height: 30px;
+}
+.input small {
+    display: block;
+    color: #e74c3c;
+    padding: 2px 0;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    visibility: hidden;
+    font-size: 12px;
+}
+.input.error small {
+    color:  var(--red-color);
+}
+.input.error input {
+    border-color: #e74c3c;
+}
+.input.success input {
+    border-color: #2ecc71;
+}

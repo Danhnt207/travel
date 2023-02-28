@@ -1,0 +1,79 @@
+[
+	{
+		"id": "1",
+		"title": "Đà Lạt",
+		"description": "Cách thành phố Hồ Chí Minh 300km, Đà Lạt là thành phố lý tưởng để bạn trốn cái nóng mùa hè hay tận hưởng cảm giác mùa đông se lạnh. Đà Lạt nổi tiếng với những thắng cảnh như Hồ Xuân Hương, Thung Lũng Vàng, Đồi Mộng Mơ, Thung Lũng Tình Yêu, Langbiang… tất cả đã tạo nên một Đà Lạt lung linh, huyền diệu. Đà Lạt có nhiều dân tộc anh em như Hoa, Cơ Ho, Tày, Nùng, Chăm nhưng trong đó chiếm đại da số vẫn là người kinh.",
+		"image": "experience1.png",
+		"date": "05/12/2022"
+	},
+	{
+		"id": "2",
+		"title": "Nha Trang",
+		"description": "Vốn nổi tiếng là thành phố biển du lịch của Việt Nam, Nha Trang có rất nhiều những danh lam thắng cảnh hút hồn các du khách bởi vẻ đẹp tuyệt vời. Khu giải trí Vinpearl Land với nhiều trò chơi thú vị và hấp dẫn, đảo Hòn Mun với những rặng san hô đẹp lộng lẫy, còn Hòn Tằm thu hút du khách với bãi tắm tuyệt đẹp hay dịch vụ tắm bùn khoáng tại I-Resort khu du lịch Trăm Trứng sẽ giúp du khách thư giãn sau ngày dài. Đến Nha Trang không quên thưởng thức đặc sản nổi tiếng phố biển như bún sứa, nem nướng.",
+		"image": "experience2.png",
+		"date": "05/12/2022"
+	},
+	{
+		"id": "3",
+		"title": "Vũng Tàu",
+		"description": "Vũng Tàu là thành phố thuộc tỉnh Bà Rịa - Vũng Tàu, ở vùng Đông Nam Bộ Việt Nam. Cách TPHCM 100km, Vũng Tàu thích hợp cho những chuyến nghỉ ngơi, thư giãn vào cuối tuần hay các dịp lễ. Đến đây, ngoài tắm biển, tham quan bạn sẽ bị thu hút bởi những món ăn ngon và một thành phố năng động, mến khách. Cách Vũng Tàu 200km là Côn Đảo với những bãi tắm hoang sơ, tuyệt đẹp, Côn Đảo thích hợp cho những ai thích tìm hiểu văn hóa, lịch sử và tìm một cảm giác bình yên trong lòng.",
+		"image": "experience3.png",
+		"date": "04/12/2022"
+	},
+	{
+		"id": "4",
+		"title": "Phú Quốc",
+		"description": "Đảo Phú Quốc thuộc tỉnh Kiên Giang, được mệnh danh là đảo ngọc, là hòn đảo lớn nhất Việt Nam nằm trong vịnh Thái Lan. Đảo Phú Quốc nổi tiếng với những bãi biển trong xanh, những dòng suối yên bình và hải sản tươi ngon.",
+		"image": "experience4.png",
+		"date": "04/12/2022"
+	},
+	{
+		"id": "5",
+		"title": " Cần Thơ",
+		"description": "Cần Thơ là khu vực trung tâm của vùng Đồng Bằng Sông Cửu Long, có nếp sống văn hóa đặc trưng của miền tây sông nước. Nơi dây nổi tiếng với Chợ nổi Cái Răng, những vườn cây ăn trái sum xuê trĩu quả và những làng nghề truyền thống, đây là điểm đến bạn không nên bỏ qua trong chuyến hành trình khám phá vùng sông nước. Cần Thơ có 3 dân tộc sống chung là Việt, Hoa, Khmer nên vì vậy mà có những lễ hội hay những làng nghề riêng của mỗi dân tộc góp phần tại nên sự phong phú và đa dạng cho mảnh đất này.",
+		"image": "experience5.png",
+		"date": "03/12/2022"
+	},
+	{
+		"id": "6",
+		"title": "Huế",
+		"description": "Thành phố Huế nằm trên dải đất miền Trung được biết đến với Quần thể Di tích Cố đô Huế - Di sản Văn hóa Thế giới và Nhã nhạc Cung đình Huế - Kiệt tác phi vật thể và truyền miệng của nhân loại. Ngoài ra, Huế còn nổi tiếng với những lăng tẩm, món ăn ngon và làng nghề truyền thống lâu đầu. Bên cạnh đó, phố cổ Hội An là một nơi không thể bỏ qua khi du lịch tại Huế.",
+		"image": "experience6.png",
+		"date": "03/12/2022"
+	},
+	{
+		"id": "7",
+		"title": "Hạ Long",
+		"description": "Hạ Long là điểm đến du lịch bạn nên đến một lần trong đời, bởi ngoài thưởng ngoạn phong cảnh thiên nhiên tuyệt đẹp của Vịnh Hạ Long cùng với hệ thống các hang động, bạn còn trải nghiệm những hoạt động như ngủ đêm trên du thuyền, chèo kayak, tham quan những điểm đến linh thiêng như Yên Tử, Chùa Ba Vàng và không thể cưỡng lại với những món ăn làm mê hoặc lòng người như chả mực, hàu nướng, sá sùng…",
+		"image": "experience7.png",
+		"date": "02/12/2022"
+	},
+	{
+		"id": "8",
+		"title": "Phú Quốc",
+		"description": "Đảo Phú Quốc thuộc tỉnh Kiên Giang, được mệnh danh là đảo ngọc, là hòn đảo lớn nhất Việt Nam nằm trong vịnh Thái Lan. Đảo Phú Quốc nổi tiếng với những bãi biển trong xanh, những dòng suối yên bình và hải sản tươi ngon.",
+		"image": "experience4.png",
+		"date": "01/12/2022"
+	},
+	{
+		"id": "9",
+		"title": " Cần Thơ",
+		"description": "Cần Thơ là khu vực trung tâm của vùng Đồng Bằng Sông Cửu Long, có nếp sống văn hóa đặc trưng của miền tây sông nước. Nơi dây nổi tiếng với Chợ nổi Cái Răng, những vườn cây ăn trái sum xuê trĩu quả và những làng nghề truyền thống, đây là điểm đến bạn không nên bỏ qua trong chuyến hành trình khám phá vùng sông nước. Cần Thơ có 3 dân tộc sống chung là Việt, Hoa, Khmer nên vì vậy mà có những lễ hội hay những làng nghề riêng của mỗi dân tộc góp phần tại nên sự phong phú và đa dạng cho mảnh đất này.",
+		"image": "experience5.png",
+		"date": "01/12/2022"
+	},
+	{
+		"id": "10",
+		"title": "Huế",
+		"description": "Thành phố Huế nằm trên dải đất miền Trung được biết đến với Quần thể Di tích Cố đô Huế - Di sản Văn hóa Thế giới và Nhã nhạc Cung đình Huế - Kiệt tác phi vật thể và truyền miệng của nhân loại. Ngoài ra, Huế còn nổi tiếng với những lăng tẩm, món ăn ngon và làng nghề truyền thống lâu đầu. Bên cạnh đó, phố cổ Hội An là một nơi không thể bỏ qua khi du lịch tại Huế.",
+		"image": "experience7.png",
+		"date": "01/12/2022"
+	},
+	{
+		"id": "11",
+		"title": "Hạ Long",
+		"description": "Hạ Long là điểm đến du lịch bạn nên đến một lần trong đời, bởi ngoài thưởng ngoạn phong cảnh thiên nhiên tuyệt đẹp của Vịnh Hạ Long cùng với hệ thống các hang động, bạn còn trải nghiệm những hoạt động như ngủ đêm trên du thuyền, chèo kayak, tham quan những điểm đến linh thiêng như Yên Tử, Chùa Ba Vàng và không thể cưỡng lại với những món ăn làm mê hoặc lòng người như chả mực, hàu nướng, sá sùng…",
+		"image": "experience3.png",
+		"date": "01/12/2022"
+	}
+]

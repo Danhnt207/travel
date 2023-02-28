@@ -1,0 +1,371 @@
+[
+	{
+		"id": "22",
+		"code": "MT0022",
+		"name": "Quy Nhơn - Phú Yên - Eo Gió - FLC Zoo Safari Park",
+		"startLocation": "TP.HCM",
+		"type": "standard",
+		"priceTicket": {
+			"adult": "6.290.000",
+			"children": "4.700.000",
+			"kid": "1.800.000",
+			"baby": "250.000"
+		},
+		"discount": "10",
+		"dateStart": "14/12/2022",
+		"image": ["MT0022_1.jpg", "MT0022_2.jpg", "MT0022_3.jpg", "MT0022_4.jpg"],
+		"ratePoint": "9.2",
+		"departureTime": "13:30",
+		"movingTime": "1:00",
+		"returnTime": "15:30",
+		"slot": "20",
+		"leftSlot": "7",
+		"time": "4-3",
+		"vehicle": "máy bay",
+		"locationVisit": "Phú Yên, Quy Nhơn, Eo Gió, FLC, Safari, Gành Đá Dĩa, Nhà Thờ Mằng Lăng, Tháp Đôi, Tháp Nghinh Phong",
+		"culinary": "Buffet sáng, Theo thực đơn, Đặc sản địa phương",
+		"hotel": {
+			"numberStar": "4",
+			"price": {
+				"single": "2.700.000",
+				"double": "3.100.000",
+				"twin": "3.600.000",
+				"triple": "4.500.000"
+			}
+		},
+		"idealTime": "Quanh năm",
+		"object": "Cặp đôi, Gia đình nhiều thế hệ, Thanh niên",
+		"endow": "Đã bao gồm ưu đãi trong giá tour",
+		"timeline": [
+			{
+				"title": "Ngày 1 - TP.HỒ CHÍ MINH - PHÚ YÊN",
+				"meal": "Số bữa ăn: 1 bữa(Tối)"
+			},
+			{
+				"title": "Ngày 2 - PHÚ YÊN - QUY NHƠN",
+				"meal": "Số bữa ăn: 3 bữa (Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 3 - QUY NHƠN - EO GIÓ",
+				"meal": "Số bữa ăn: 3 bữa (Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 4 - QUY NHƠN - TP.HỒ CHÍ MINH",
+				"meal": "Số bữa ăn: 2 bữa (Sáng, Trưa)"
+			}
+		],
+		"gatheringPlace": "Đang cập nhật"
+	},
+	{
+		"id": "24",
+		"code": "MT0024",
+		"name": "Quy Nhơn - Phú Yên 6 ngày 5 đêm: Hành trình về Xứ Nẫu",
+		"startLocation": "Quy Nhơn",
+		"type": "goodPrice",
+		"priceTicket": {
+			"adult": "4.850.000",
+			"children": "2.400.000",
+			"kid": "500.000",
+			"baby": "0"
+		},
+		"discount": "18",
+		"dateStart": "09/12/2022",
+		"image": ["MT0024_1.jpg", "MT0024_2.jpg", "MT0024_3.jpg", "MT0024_4.jpg"],
+		"ratePoint": "9.5",
+		"departureTime": "6:30",
+		"movingTime": "0:30",
+		"returnTime": "16:00",
+		"slot": "40",
+		"leftSlot": "12",
+		"time": "6-5",
+		"vehicle": "xe du lịch",
+		"locationVisit": "Quy Nhơn, Chùa Thiên Hưng, Khu du lịch Ghềnh Ráng Tiên Sa, Trại Phong Quy Hoà",
+		"culinary": "Theo thực đơn, Đặc sản địa phương",
+		"hotel": {
+			"numberStar": "3",
+			"price": {
+				"single": "1.800.000",
+				"double": "2.400.000",
+				"twin": "2.000.000",
+				"triple": "4.250.000"
+			}
+		},
+		"idealTime": "Quanh năm",
+		"object": "Cặp đôi, Gia đình nhiều thế hệ, Thanh niên, Nhóm bạn",
+		"endow": "Đã bao gồm ưu đãi trong giá tour",
+		"timeline": [
+			{
+				"title": "Ngày 1 - QUY NHƠN CITY TOUR",
+				"meal": "Số bữa ăn: 2 bữa(Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 2 - KHÁM PHÁ KỲ CO - EO GIÓ - THIÊN ĐƯỜNG BIỂN ĐẢO TUYỆT ĐẸP QUY NHƠN",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 3 - VỀ MIỀN TAM KIỆT - TÂY SƠN HUYỀN THOẠI",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 4 - QUY NHƠN - KHÁM PHÁ PHÚ YÊN (VÙNG ĐẤT HOA VÀNG CỎ XANH) - TUY HÒA",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 5 - ĐẢO NHẤT TỰ SƠN - BIỂN VỊNH HÒA - ĐỒI CÁT TỪ NHAM",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 6 - TUY HÒA - HẢI ĐĂNG MŨI ĐIỆN - HÒN NƯA - VỊNH VŨNG RÔ",
+				"meal": "Số bữa ăn: 2 bữa(Sáng, Trưa)"
+			}
+		]
+	},
+	{
+		"id": "26",
+		"code": "MT0026",
+		"name": "Huế - La Vang - Động Phong Nha & Thiên Đường - KDL Bà Nà - Cầu Vàng -Sơn Trà - Hội An - Đà Nẵng",
+		"startLocation": "TP.HCM",
+		"type": "standard",
+		"priceTicket": {
+			"adult": "8.790.000",
+			"children": "6.500.000",
+			"kid": "2.600.000",
+			"baby": "320.000"
+		},
+		"discount": "15",
+		"dateStart": "21/12/2022",
+		"image": ["MT0026_1.jpg", "MT0026_2.jpg", "MT0026_3.jpg", "MT0026_4.jpg"],
+		"ratePoint": "9.6",
+		"departureTime": "6:00",
+		"movingTime": "1:30",
+		"returnTime": "14:05",
+		"slot": "25",
+		"leftSlot": "11",
+		"time": "5-4",
+		"vehicle": "Máy bay, Xe du lịch",
+		"locationVisit": "10 điểm tham quan ngoài trời, 4 điểm tham quan trong nhà",
+		"culinary": "Theo thực đơn",
+		"hotel": {
+			"numberStar": "4",
+			"price": {
+				"single": "3.600.000",
+				"double": "4.500.000",
+				"twin": "4.000.000",
+				"triple": "7.050.000"
+			}
+		},
+		"idealTime": "quanh năm, lý tưởng nhất là mùa khô",
+		"object": "Gia đình nhiều thế hệ",
+		"endow": "Đã bao gồm ưu đãi trong giá tour",
+		"timeline": [
+			{
+				"title": "Ngày 1 - TP.HỒ CHÍ MINH - HUẾ - ĐẠI NỘI - CHÙA THIÊN MỤ",
+				"meal": "Số bữa ăn: 1 bữa(Tối)"
+			},
+			{
+				"title": "Ngày 2 - HUẾ - ĐỘNG PHONG NHA & THIÊN ĐƯỜNG - QUẢNG BÌNH",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 3 - QUẢNG BÌNH - LA VANG - ĐẦM LẬP AN - ĐÀ NẴNG",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 4 - ĐÀ NẴNG - KDL BÀ NÀ - CẦU VÀNG",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 5 - ĐÀ NẴNG - MỸ KHÊ - SƠN TRÀ - NGŨ HÀNH SƠN - TP.HCM",
+				"meal": "Số bữa ăn: 2 bữa(Sáng, Trưa)"
+			}
+		],
+		"gatheringPlace": "Đang cập nhật"
+	},
+	{
+		"id": "27",
+		"code": "MT0027",
+		"name": "Huế - Du lịch Tết Âm lịch Đà Nẵng - Huế - Thánh Địa La Vang - Động Thiên Đường từ Sài Gòn 2023",
+		"startLocation": "TP.HCM",
+		"type": "goodPrice",
+		"priceTicket": {
+			"adult": "11.699.000",
+			"children": "5.799.000",
+			"kid": "2.000.000",
+			"baby": "300.000"
+		},
+		"discount": "8",
+		"dateStart": "23/01/2022",
+		"image": ["MT0027_1.jpg", "MT0027_2.jpg", "MT0027_3.jpg", "MT0027_4.jpg"],
+		"ratePoint": "8.9",
+		"departureTime": "6:20",
+		"movingTime": "1:30",
+		"returnTime": "16:00",
+		"slot": "30",
+		"leftSlot": "14",
+		"time": "4-3",
+		"vehicle": "Máy bay, Xe du lịch",
+		"locationVisit": "Huế, Vườn quốc gia Phong Nha - Kẻ  Bàng, bán đảo Sơn Trà",
+		"culinary": "Theo thực đơn",
+		"hotel": {
+			"numberStar": "3",
+			"price": {
+				"single": "2.600.000",
+				"double": "2.500.000",
+				"twin": "1.900.000",
+				"triple": "5.000.000"
+			}
+		},
+		"idealTime": "dịp lễ Tết",
+		"object": "Gia đình nhiều thế hệ",
+		"endow": "Đã bao gồm ưu đãi trong giá tour",
+		"timeline": [
+			{
+				"title": "Ngày 1 - TP.HCM - HUẾ - QUẢNG BÌNH",
+				"meal": "Số bữa ăn: 2 bữa(Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 2 - ĐỘNG THIÊN ĐƯỜNG - THÁNH ĐỊA LA VANG - HUẾ",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 3 - HUẾ - ĐÀ NẴNG - HỘI AN",
+				"meal": "Số bữa ăn: 3 bữa(Sáng, Trưa, Tối)"
+			},
+			{
+				"title": "Ngày 4 - ĐÀ NẴNG - BÀ NÀ - TP.HCM",
+				"meal": "Số bữa ăn: 2 bữa(Sáng, Trưa)"
+			}
+		],
+		"gatheringPlace": "Đang cập nhật"
+	},
+	{
+		"id": "35",
+		"code": "MB0035",
+		"name": "Sa Pa - Mù Cang Chải - Fansinpan Lai Châu - Điện Biên - Mộc Châu - Mai Châu",
+		"startLocation": "TP.HCM",
+		"type": "goodPrice",
+		"priceTicket": {
+			"adult": "9.650.000",
+			"children": "7.980.000",
+			"kid": "3.500.000",
+			"baby": "1.000.000"
+		},
+		"discount": "15",
+		"dateStart": "20/12/2022",
+		"image": ["MB0035_1.jpg", "MB0035_2.jpg", "MB0035_3.jpg", "MB0035_4.jpg"],
+		"ratePoint": "9.4",
+		"departureTime": "19:00",
+		"movingTime": "3:00",
+		"returnTime": "12:00",
+		"slot": "16",
+		"leftSlot": "9",
+		"time": "5-4",
+		"vehicle": "Máy bay, Xe du lịch",
+		"locationVisit": "Sa Pa, Mù Cang Chải, thung lũng Khau Phạ,  Cầu kính Rồng Mây, Thung lũng mận Nà Ka, Fansinpan, Lai Châu, Điện Biên, Mộc Châu, Mai Châu",
+		"culinary": "Buffet sáng, Đặc sản địa phương, Theo thực đơn",
+		"hotel": {
+			"numberStar": "3",
+			"price": {
+				"single": "1.000.000",
+				"double": "1.500.000",
+				"twin": "1.700.000",
+				"triple": "2.000.000"
+			}
+		},
+		"idealTime": "Quanh năm",
+		"object": "Cặp đôi, Gia đình nhiều thế hệ",
+		"endow": "Đã bao gồm ưu đãi trong giá tour",
+		"timeline": [
+			{
+				"title": "Tối ngày 1 - TP. Hồ Chí Minh - Hà Nội",
+				"meal": "Số bữa ăn: 2 bữa (trưa, tối)"
+			},
+			{
+				"title": "Ngày 1 - Hà Nội - Khau Phạ - Mù Cang Chải",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 2 - Mù Cang Chải - Sapa - Fansipan ",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 3 - Sapa - Cầu Kính Rồng Mây - Lai Châu - Điện Biên",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 4 - Điện Biên - Mộc Châu - Cầu Kính Bạch Long ",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 5 - Mộc Châu - Mai Châu - Hà Nội - TP. Hồ Chí Minh",
+				"meal": "Số bữa ăn: 2 bữa (ăn sáng, trưa)"
+			}
+		],
+		"gatheringPlace": "Đang cập nhật"
+	},
+	{
+		"id": "36",
+		"code": "MB0036",
+		"name": "Sapa - Fansipan - Ninh Bình - Tràng An - Bái Đính - Tuyệt Tịnh Cốc - Hạ Long - Yên Tử",
+		"startLocation": "TP.HCM",
+		"type": "luxury",
+		"priceTicket": {
+			"adult": "13.990.000",
+			"children": "10.492.500 ",
+			"kid": "6.995.000",
+			"baby": "700.000"
+		},
+		"discount": "5",
+		"dateStart": "02/01/2023",
+		"image": ["MB0036_1.jpg", "MB0036_2.jpg", "MB0036_3.jpg", "MB0036_4.jpg"],
+		"ratePoint": "9",
+		"departureTime": "8:00",
+		"movingTime": "3:00",
+		"returnTime": "14:00",
+		"slot": "20",
+		"leftSlot": "7",
+		"time": "6-5",
+		"vehicle": "Máy bay, Xe du lịch",
+		"locationVisit": "Sapa, Bản Cát Cát, Fansipan, Hạ Long, Động Thiên Cung, Yên Tử, Tràng An, Bái Đính",
+		"culinary": "Buffet sáng, Theo thực đơn, Đặc sản địa phương",
+		"hotel": {
+			"numberStar": "4",
+			"price": {
+				"single": "2.000.000",
+				"double": "2.500.000",
+				"twin": "2.700.000",
+				"triple": "3.000.000"
+			}
+		},
+		"idealTime": "Quanh năm, tháng thích hợp nhất từ tháng 10 đến tháng 1 năm sau",
+		"object": "Gia đình nhiều thế hệ, Cặp đôi",
+		"endow": "Đã bao gồm ưu đãi trong giá tour",
+		"timeline": [
+			{
+				"title": "Ngày 1 - TP. Hồ Chí Minh - Sân bay Nội Bài (Hà Nội) - Sapa",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 2 - Sapa - Fansipan Legend - Đèo Ô Quy Hồ",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 3 - Sapa - Lào Cai - Hà Nội ",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 4 - Hà Nội - Ninh Bình",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 5 - Ninh Bình - Vịnh Hạ Long - Động Thiên Cung",
+				"meal": "Số bữa ăn: 3 bữa (ăn sáng, trưa, tối)"
+			},
+			{
+				"title": "Ngày 6 - Hạ Long - Yên Tử - Sân Bay Nội Bài - TP. Hồ Chí Minh",
+				"meal": "Số bữa ăn: 2 bữa (ăn sáng, trưa)"
+			}
+		],
+		"gatheringPlace": "Đang cập nhật"
+	}
+]

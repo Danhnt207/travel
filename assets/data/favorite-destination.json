@@ -1,0 +1,51 @@
+[
+	{
+		"id": 0,
+		"thumb": "HaNoi.jpg",
+		"name": "Hà Nội",
+		"numberVisitors": " 172.234",
+		"desc": ""
+	},
+	{
+		"id": 1,
+		"thumb": "DaNang.jpg",
+		"name": "Đà Nẵng",
+		"numberVisitors": " 79.284"
+	},
+	{
+		"id": 2,
+		"thumb": "DaLat.jpg",
+		"name": "Đà Lạt",
+		"numberVisitors": "98.347"
+	},
+	{
+		"id": 3,
+		"thumb": "PhuQuoc.jpg",
+		"name": "Phú Quốc",
+		"numberVisitors": " 125.347"
+	},
+	{
+		"id": 4,
+		"thumb": "QuyNhon.jpg",
+		"name": "Quy Nhơn",
+		"numberVisitors": " 19.398"
+	},
+	{
+		"id": 5,
+		"thumb": "Hue.jpg",
+		"name": "Huế",
+		"numberVisitors": " 76.234"
+	},
+	{
+		"id": 6,
+		"thumb": "VungTau.jpg",
+		"name": "Vũng Tàu",
+		"numberVisitors": " 52.125"
+	},
+	{
+		"id": 7,
+		"thumb": "Sapa.jpg",
+		"name": "Sapa",
+		"numberVisitors": " 107.098"
+	}
+]

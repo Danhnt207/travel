@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"thumb": "choose-us1.png",
+		"name": "Đặt tour",
+		"desc": "Là đối tác của nhiều trung tâm du lịch trên toàn quốc cũng như hệ thống vé máy bay, chúng tôi cam kết mang lại kết quả trải nghiệm tốt nhất với quá trình đặt tour nhanh chóng, linh hoạt"
+	},
+	{
+		"id": 2,
+		"thumb": "choose-us2.png",
+		"name": "Chăm sóc khách hàng",
+		"desc": "Đội ngũ nhân viên tư vấn nhiệt tình – phản hồi nhanh chóng – tác phong chuyên nghiệp, hotline hỗ trợ 24/24 luôn sẵn sàng giúp đỡ bạn trong từng bước của quá trình đặt vé"
+	},
+	{
+		"id": 3,
+		"thumb": "choose-us3.png",
+		"name": "Thanh toán",
+		"desc": "Hệ thống bảo mật ngang tầm quốc tế, đảm bảo quá trình thanh toán được diễn ra an toàn, linh hoạt"
+	},
+	{
+		"id": 4,
+		"thumb": "choose-us4.png",
+		"name": "Khuyến mãi",
+		"desc": "Là đối tác của nhiều trung tâm du lịch trên toàn quốc cũng như hệ thống vé máy bay, chúng tôi cam kết mang lại kết quả trải nghiệm tốt nhất với quá trình đặt tour nhanh chóng, linh hoạt"
+	}
+]

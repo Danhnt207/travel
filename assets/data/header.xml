@@ -1,0 +1,134 @@
+<header>
+    <div class="logo">
+        <a class="logo-link" href="home.html">
+            <img src="./assets/image/Logo.png" alt="#" />
+        </a>
+    </div>
+    <nav>
+    
+        <div class="nav-item">
+            <a href="tour-results.html">
+                <span class="material-icons-sharp nav-item__icon"> flight </span>
+                <span class="nav-item__name">Du lịch</span>
+                <span class="material-icons-outlined">
+                    expand_more
+                    </span>
+            </a>
+            <ul class="sub-nav">
+                <li class="sub-nav-item">
+                    <a href="tour-results.html?region=MB">Du lịch miền Bắc</a>
+                </li>
+                <li class="sub-nav-item">
+                    <a href="tour-results.html?region=MN">Du lịch miền Nam</a>
+                </li>
+                <li class="sub-nav-item">
+                    <a href="tour-results.html?region=MT">Du lịch miền Trung</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-item">
+            <a href="promotion.html">
+                <span class="material-icons-sharp nav-item__icon">
+                    local_offer
+                </span>
+                <span class="nav-item__name">Khuyến mãi</span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="news.html">
+                <span class="material-icons-sharp nav-item__icon"> feed</span>
+                <span class="nav-item__name">Tin tức</span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="contact.html">
+                <span class="material-icons-sharp nav-item__icon"> call </span>
+                <span class="nav-item__name">Liên hệ</span>
+            </a>
+        </div>
+        <div class="nav-item">
+            <a href="aboutus.html">
+                <span class="material-icons-sharp nav-item__icon"> groups </span>
+                <span class="nav-item__name">Về chúng tôi</span>
+            </a>
+        </div>
+    </nav>
+    <div class="search-account">
+        <div class="search">
+            <input
+                type="text"
+                placeholder="Bắt đầu tìm kiếm..."
+                name="seach-input"
+                id="search-input"
+                class="search-input" />
+            <span class="material-icons-sharp search-icon"> search </span>
+        </div>
+        <div class="menu-btn">
+            <span class="material-icons-outlined menu-icon">
+                menu
+                </span>
+        </div>
+        <div class="account">
+            <span class="material-icons-outlined account-icon">
+                account_circle
+            </span>
+            <!-- <div class="modal"></div> -->
+            <div class="popup-login">
+                <div class="heading-login">Đăng nhập tài khoản</div>
+                <div class="form-login">
+                    <div class="input-box">
+                        <input
+                            type="text"
+                            class="input-value"
+                            name="email-phone"
+                            id="email-phone"
+                            placeholder="Email hoặc số điện thoại" />
+                            <div class="message-error" id="message-email-phone"></div>
+                        </div>
+                    <div class="input-box">
+                        <input
+                        type="password"
+                        class="input-value"
+                        name="password"
+                        id="password"
+                        placeholder="Mật khẩu" />
+                        <div class="message-error" id="message-password"></div>
+                    </div>
+                    <div class="remember-forgot">
+                        <div class="remember-login">
+                            <input type="checkbox" name="remember" id="remember" />
+                            <label for="remember">Ghi nhớ đăng nhập</label>
+                        </div>
+                        <a class="link" href="">Quên mật khẩu</a>
+                    </div>
+                    <button class="login-btn">
+                            Đăng nhập
+                    </button>
+                    <div class="another-login">
+                        <span>Hoặc đăng nhập bằng</span>
+                    </div>
+                    <div class="login-logo">
+                        <div>
+                            <img src="./assets/image/logo-login/google.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="./assets/image/logo-login/facebook.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="./assets/image/logo-login/apple.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="no-account">
+                        Nếu bạn chưa có tài khoản? <a href="register.html" class="link">Đăng ký</a>
+                    </div>
+                </div>
+                <div class="close-btn">
+                    <span class="material-icons-outlined close-icon">
+                        close
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>

@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #2192ff;
+  --header-height: 7rem;
+  --header-bg: #cfe9f8;
+  --footer-bg: #ccc;
+  --form-bg: #f9f9f9;
+  --text-color: #333;
+  --desc-color: #555;
+  --red-color: #f01212;
+  --blue-color: #0008c1;
+  --yellow-color: #ffc709;
+  --white-color: #fff;
+  --border-radius-input: 0.5rem;
+  --border-radius-btn: 1rem;
+  --border-radius-img-item: 1.5rem;
+  --size-page-number-btn: 5rem;
+  --border-quick-search-input: 0.2rem solid #ffc709;
+  --border-input: 0.1rem solid #e7e7e7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}

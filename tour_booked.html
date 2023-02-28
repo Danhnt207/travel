@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/account.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <script src="./assets/js/footer.js" defer></script>
+    <script src="./assets/js/header.js" defer></script>
+    <script src="./assets/js/account.js" defer></script>
+</head>
+<body>
+    <div id="header">
+
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="profile">
+                <div class="profile__img">
+                    <img src="./assets/image/makima.png" alt="">
+                </div>
+                <div class="profile__info">
+                    <p class="profile__info-name">Nguyễn Thành Danh</p>
+                    <p class="profile__info-email">thanhdanh123@gmail.com</p>
+                    <p class="profile__info-rank">
+                        <span class="material-icons-sharp">
+                            diamond
+                        </span>
+                        Kim cương
+                    </p>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu__list">
+                    <li><span class="material-icons-sharp">
+                        account_circle
+                        </span>
+                        <a href="account.html" class="menu__link tab-item ">Tài khoản</a>
+                        <ul class="menu__sublist tab">
+                            <li class="menu__subitem tablinks" onclick="openInfo(event, 'account')">Thông tin cá nhân</li>
+                            <li class="menu__subitem tablinks" onclick="openInfo(event, 'changePass')">Đổi mật khẩu</li>
+                            <li class="menu__subitem tablinks" onclick="openInfo(event, 'payment')">Thông tin thanh toán</li>
+                            <li class="menu__subitem" id="openModalLogout">Đăng xuất</li>
+                        </ul>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        card_membership
+                        </span>
+                        <a href="points.html" class="menu__link">Tích điểm thành viên</a>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        pending_actions
+                        </span>
+                        <a href="tour_booked.html" class="menu__link hightlight">Tour đã đặt</a>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        favorite
+                        </span>
+                        <a href="favorite.html" class="menu__link">Yêu thích đã lưu</a>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        hotel_class
+                        </span>
+                        <a href="rating.html" class="menu__link">Đánh giá của quý khách</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="account-info list_tour" id="account">
+                <div class="maybe-like__item">
+                    <div class="maybe-like__item-img">
+                        <img src="./assets/image/tours/MB0002_4.jpg" alt="">
+                    </div>
+                    <div class="maybe-like__item-date">23/12/2022</div>
+                    <div class="maybe-like__item-title">Đà Nẵng - Huế - Đầm Lập An - La Vang - Động Thiên Đường - KDL Bà Nà - Cầu Vàng</div>
+                    <div class="maybe-like__item-departure">
+                        Nơi khởi hành: TP. Hồ Chí Minh
+                    </div>
+                    <div class="maybe-like__item-price">2,390,000đ</div>
+                </div>
+                <div class="maybe-like__item">
+                    <div class="maybe-like__item-img">
+                        <img src="./assets/image/tours/MB0003_2.jpg" alt="">
+                    </div>
+                    <div class="maybe-like__item-date">23/12/2022</div>
+                    <div class="maybe-like__item-title">Đà Nẵng - Huế - Đầm Lập An - La Vang - Động Thiên Đường - KDL Bà Nà - Cầu Vàng</div>
+                    <div class="maybe-like__item-departure">
+                        Nơi khởi hành: TP. Hồ Chí Minh
+                    </div>
+                    <div class="maybe-like__item-price">1,890,000đ</div>
+                </div>
+                <div class="maybe-like__item">
+                    <div class="maybe-like__item-img">
+                        <img src="./assets/image/tours/MB0003_4.jpg" alt="">
+                    </div>
+                    <div class="maybe-like__item-date">23/12/2022</div>
+                    <div class="maybe-like__item-title">Đà Nẵng - Huế - Đầm Lập An - La Vang - Động Thiên Đường - KDL Bà Nà - Cầu Vàng</div>
+                    <div class="maybe-like__item-departure">
+                        Nơi khởi hành: TP. Hồ Chí Minh
+                    </div>
+                    <div class="maybe-like__item-price">4,290,000đ</div>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+    <div class="modal__logout" id="modal">
+        <div class="modal__logout-content">
+            <div class="modal__logout-content--title">
+                Bạn có chắc chắn muốn đăng xuất?
+            </div>
+            <div class="modal__logout-content--confirm">
+                <button class="modal__close" onclick="location.href='home.html';">Có</button>
+                <button class="modal__close">Không</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+</html>

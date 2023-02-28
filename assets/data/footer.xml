@@ -1,0 +1,117 @@
+<footer>
+    <div class="container">
+        <div class="top">
+            <div class="info">
+                <h3 class="title">Thông tin</h3>
+                <div class="list">
+                    <a href="" class="item">Khuyến mãi</a>
+                    <a href="" class="item">Tin tức</a>
+                    <a href="" class="item">Cẩm nang</a>
+                    <a href="" class="item">Kinh nghiệm</a>
+                    <a href="" class="item">Về chúng tôi</a>
+                </div>
+                <div class="logo">
+                    <img src="./assets/image/Logo.png" alt="" />
+                </div>
+            </div>
+            <div class="contact-social">
+                <div class="contact">
+                    <h3 class="title">Liên hệ</h3>
+                    <div class="list">
+                        <div class="item">
+                            <span class="material-icons-outlined"> call </span>
+                            0345678999
+                        </div>
+                        <div class="item">
+                            <span class="material-icons-outlined"> email </span>
+                            info@travelce.com
+                        </div>
+                        <div class="item">Từ 8:00 - 22h hằng ngày</div>
+                    </div>
+                </div>
+                <div class="social">
+                    <h3 class="title">Mạng xã hội</h3>
+                    <div class="list">
+                        <a href="" class="item"
+                            ><img src="./assets/image/social/facebook.png" alt=""
+                        /></a>
+                        <a href="" class="item"
+                            ><img src="./assets/image/social/youtube.png" alt=""
+                        /></a>
+                        <a href="" class="item"
+                            ><img src="./assets/image/social/instagram.png" alt=""
+                        /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="app">
+                <h3 class="title">Ứng dụng di động</h3>
+                <div class="list">
+                    <div class="item">
+                        <a href="" class="item__download">
+                            <img src="./assets/image/app/google-play.png" alt="" />
+                        </a>
+                        <span class="item__name">Google Play</span>
+                        <img
+                            src="./assets/image/app/qr-code.png"
+                            alt=""
+                            class="item__qr-code" />
+                    </div>
+                    <div class="item">
+                        <a href="" class="item__download">
+                            <img src="./assets/image/app/app-store.png" alt="" />
+                        </a>
+                        <span class="item__name">App Store</span>
+                        <img
+                            src="./assets/image/app/qr-code.png"
+                            alt=""
+                            class="item__qr-code" />
+                    </div>
+                </div>
+            </div>
+            <div class="certification-partners">
+                <div class="certification">
+                    <h3 class="title">Chứng nhận</h3>
+                    <div class="list">
+                        <div class="item">
+                            <img src="./assets/image/certification/dmca.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="./assets/image/certification/online-gov.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="partners">
+                    <h3 class="title">Đối tác kinh doanh</h3>
+                    <div class="list">
+                        <div class="item">
+                            <img src="./assets/image/partners/partner1.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="./assets/image/partners/partner2.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="./assets/image/partners/partner3.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="./assets/image/partners/partner4.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="./assets/image/partners/partner5.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="./assets/image/partners/partner6.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="location-copyright">
+        <div class="location">
+            Công ty TNHH Travel CE Việt Nam, 669 QL1A, khu phố 3, phường Linh
+            Xuân, Thành phố Thủ Đức, Thành phố Hồ Chí Minh
+        </div>
+        <div class="copyright">Copyright by © 5CE UEL</div>
+    </div>
+</footer>

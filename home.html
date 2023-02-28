@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Travel CE</title>
+		<!-- Link google icons -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+			rel="stylesheet" />
+		<!-- Link fontawesome icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<!-- Link css -->
+		<link rel="stylesheet" href="./assets/css/root.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/header.css" />
+		<link rel="stylesheet" href="./assets/css/footer.css" />
+		<!-- Link swiper -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+			defer></script>
+
+		<!-- Link js -->
+		<script src="./assets/js/home.js" defer></script>
+		<script src="./assets/js/swiper.js" defer></script>
+		<script src="./assets/js/header.js" defer></script>
+		<script src="./assets/js/footer.js" defer></script>
+	</head>
+	<body>
+		<!-- Header -->
+		<div id="header"></div>
+
+		<!-- Banner -->
+		<section id="banner">
+			<img src="./assets/image/Banner-home.png" alt="" />
+		</section>
+
+		<div class="container">
+			<!-- Quick search -->
+			<div id="quick-search">
+				<div class="tab-menu">
+					<div class="tab-item active">
+						<span class="material-icons-sharp tab-item__icon">
+							business_center
+						</span>
+						<span class="tab-item__title">Du lịch trọn gói</span>
+					</div>
+					<div class="tab-item">
+						<span class="material-icons-sharp tab-item__icon">
+							directions_bus_filled
+						</span>
+						<span class="tab-item__title">Xe du lịch</span>
+					</div>
+					<div class="tab-item">
+						<span class="material-icons-sharp tab-item__icon"> flight </span>
+						<span class="tab-item__title">Vé máy bay</span>
+					</div>
+					<div class="tab-item">
+						<span class="material-icons-sharp tab-item__icon"> business </span>
+						<span class="tab-item__title">Khách sạn</span>
+					</div>
+					<div class="tab-item">
+						<div class="row">
+							<span class="material-icons-sharp tab-item__icon"> flight </span>
+							+
+							<span class="material-icons-sharp tab-item__icon">
+								business
+							</span>
+						</div>
+						<span class="tab-item__title">Combo vé máy bay + khách sạn</span>
+					</div>
+					<div class="tab-item">
+						<span class="material-icons-sharp tab-item__icon"> search </span>
+						<span class="tab-item__title">Tra cứu booking</span>
+					</div>
+				</div>
+				<div id="travel" class="tab-content">
+					<h1 class="heading">
+						Hãy chọn thông tin, Travel CE sẽ giúp bạn tìm ra chuyến đi tốt nhất.
+					</h1>
+					<div class="list-input">
+						<div class="input-box l-6 m-12">
+							<span class="material-icons-outlined"> location_on </span>
+							<div class="choice">
+								<label for="start-location">Điểm đi</label>
+								<select name="" id="start-location" class="choose-location">
+									<option value="0">Điểm đi</option>
+								</select>
+							</div>
+						</div>
+						<div class="input-box l-6 m-12">
+							<span class="material-icons-outlined"> location_on </span>
+							<div class="choice">
+								<label for="end-location">Điểm đến</label>
+								<select name="" id="end-location" class="choose-location">
+									<option value="0">Điểm đi</option>
+								</select>
+							</div>
+						</div>
+						<div class="input-box l-6 m-12">
+							<span class="material-icons-outlined"> calendar_month </span>
+							<div class="choice">
+								<label for="date-start">Ngày đi</label>
+								<input type="date" name="date-start" id="date-start" />
+							</div>
+						</div>
+						<div class="input-box l-6 m-12">
+							<span class="material-icons-outlined"> calendar_month </span>
+							<div class="choice">
+								<label for="number-day">Số ngày</label>
+								<input type="number" name="" min="1" id="number-day" />
+							</div>
+						</div>
+
+						<div class="search-btn l-6 m-12">
+							<a href="">Tìm kiếm</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Endow -->
+			<section id="endow" class="endow">
+				<h1 class="content-heading">Ưu đãi</h1>
+				<div class="swiper endow-slider">
+					<div class="swiper-wrapper wrapper">
+						<div class="swiper-slide slide">
+							<a href="" class="endow-link">
+								<img src="./assets/image/endow/endow1.jpg" alt="" />
+							</a>
+						</div>
+						<div class="slide">
+							<a href="" class="endow-link">
+								<img src="./assets/image/endow/endow2.jpg" alt="" />
+							</a>
+						</div>
+						<div class="swiper-slide slide">
+							<a href="" class="endow-link">
+								<img src="./assets/image/endow/endow3.jpg" alt="" />
+							</a>
+						</div>
+						<div class="swiper-slide slide">
+							<a href="" class="endow-link">
+								<img src="./assets/image/endow/endow4.jpg" alt="" />
+							</a>
+						</div>
+					</div>
+
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+
+			<!-- Explore -->
+			<section id="explore" class="explore">
+				<h1 class="content-heading">Khám phá sản phẩm</h1>
+				<div class="swiper explore-slider">
+					<div class="swiper-wrapper wrapper">
+						<div class="swiper-slide slide">
+							<a href="">
+								<img src="./assets/image/explore/explore1.jpg" alt="" />
+								<span>Chuyến bay thuê bao</span>
+							</a>
+						</div>
+						<div class="swiper-slide slide">
+							<a href="">
+								<img src="./assets/image/explore/explore2.jpg" alt="" />
+								<span>Travel CE đã có tour Tết Quý Mão 2023</span>
+							</a>
+						</div>
+						<div class="swiper-slide slide">
+							<a href="">
+								<img src="./assets/image/explore/explore3.jpg" alt="" />
+								<span>Tự hào nét Việt: Ưu đãi kích cầu du lịch trong nước</span>
+							</a>
+						</div>
+						<div class="swiper-slide slide">
+							<a href="">
+								<img src="./assets/image/explore/explore4.jpg" alt="" />
+								<span>Chuyến bay thuê </span>
+							</a>
+						</div>
+						<div class="swiper-slide slide">
+							<a href="">
+								<img src="./assets/image/explore/explore5.jpg" alt="" />
+								<span>Chuyến bay thuê bao</span>
+							</a>
+						</div>
+					</div>
+
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+
+			<!-- Sales -->
+			<section id="sales" class="sales">
+				<h1 class="content-heading">Săn sales cực đỉnh cùng Travel CE</h1>
+				<div class="list-sales"></div>
+
+				<div class="see-all">
+					<button id="see-all-sales" class="see-all-btn">
+						<a href="sales.html">Xem tất cả</a>
+					</button>
+				</div>
+			</section>
+
+			<!-- Favorite destination -->
+			<section id="favorite-destination" class="favorite-destination">
+				<h1 class="content-heading">Điểm đến yêu thích</h1>
+				<div class="favorite-destination-list"></div>
+			</section>
+
+			<!-- Choose us -->
+			<section id="choose-us">
+				<h1 class="content-heading">Vì sao chọn chúng tôi</h1>
+				<div class="choose-us-list"></div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer"></div>
+	</body>
+</html>

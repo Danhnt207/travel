@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "ATM / Internet banking",
+    "image": "ATM.png",
+    "qr": "QR1.png"
+  },
+  {
+    "id": 2,
+    "name": "Thanh toán VNPay",
+    "image": "VNPay.png",
+    "qr": "QR2.png"
+  },
+  {
+    "id": 3,
+    "name": "Thanh toán ZaloPay",
+    "image": "ZaloPay.png",
+    "qr": "QR3.png"
+  },
+  {
+    "id": 4,
+    "name": "Thanh toán ShopeePay",
+    "image": "ShopeePay.png",
+    "qr": "QR4.png"
+  },
+  { "id": 5, "name": "Thanh toán Momo", "image": "Momo.png", "qr": "QR5.png" },
+  { "id": 6, "name": "Thanh toán Moca", "image": "Moca.png", "qr": "QR6.png" }
+]

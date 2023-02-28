@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tài khoản TravelCE</title>
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <script src="./assets/js/register.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <script src="./assets/js/footer.js" defer></script>
+    <script src="./assets/js/header.js" defer></script>
+</head>
+<body>
+    <div id="header">
+
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <div class="left__title">
+                    Đăng ký thành viên của TravelCE để tận hưởng những ưu đãi hấp dẫn nhất
+                </div>
+                <div class="left_img">
+                    <img src="./assets/image/register.svg" alt="">
+                </div>
+            </div>
+            <form class="right" id="registerForm">
+                <div class="right__item ">
+                    <label for="name" class="right__item--title">Họ và tên</label>
+                    <div class="input">
+                        <input type="text" class="right__item-input" id="name" >
+                        <small>Error message</small>
+                    </div>
+                    
+                </div>
+                <div class="right__item">
+                    <label for="email" class="right__item--title">Email</label>
+                    <div class="input">
+                        <input type="email" class="right__item-input" id="email" >
+                        <small>Error message</small>
+                    </div>
+                    
+                </div>
+                <div class="right__item ">
+                    <label for="phone" class="right__item--title">Số điện thoại</label>
+                    <div class="input">
+                        <input type="text" class="right__item-input" id="phone" >
+                        <small>Error message</small>
+                    </div>
+                    
+                </div>
+                <div class="right__item ">
+                    <label for="pass" class="right__item--title">Mật khẩu</label>
+                    <div class="input">
+                        <input type="password" class="right__item-input" id="pass">
+                            <span class="material-icons-sharp" onclick="showHidepassword()">
+                                visibility_off
+                            </span>
+                    </div>
+                    
+                </div>
+                <div class="right__item ">
+                    <label for="confirmpass" class="right__item--title">Nhập lại mật khẩu</label>
+                    <div class="input">
+                        <input type="password" class="right__item-input" id="confirmpass">
+                            <span class="material-icons-sharp" onclick="showHidepassword()">
+                                visibility_off
+                            </span>
+                    </div>
+                </div>
+                <div class="right__policy">
+                    <input type="checkbox" name="" id="" class="right__policy-check">
+                    <p class="right__policy-desc">Tôi đồng ý với các <a href="#">Điều khoản dịch vụ</a> và <a href="#">Chính sách pháp lý</a></p>
+                </div>
+                <div class="right__button ">
+                    <button id="btn-register" type="submit" onclick="validationInput()">Đăng ký</button>
+                </div>
+                <div class="right__line">
+                    <span class="right__line-or">Hoặc đăng nhập bằng</span>
+                </div>
+                <div class="right__otherapp">
+                    <div class="right__app">
+                        <img src="./assets/image/google.png" alt="gmail">
+                    </div>
+                    <div class="right__app">
+                        <img src="./assets/image/fb.png" alt="gmail">
+                    </div>
+                    <div class="right__app">
+                        <img src="./assets/image/apple.png" alt="gmail">
+                    </div>
+                </div>
+        </form>
+    </div>
+    </div>
+    <div id="footer">
+        
+    </div>
+</body>
+</html>

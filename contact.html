@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+        rel="stylesheet" />
+</head>
+<body>
+    <div id="header"></div>
+    <div class="container">
+        <div class="form-title">
+            <h4>Gửi thông tin</h4>
+        </div>
+        <div class="container-form">
+            <form action="#" onsubmit="return validateForm()">
+                <div class="form-row">  
+                    <label for="name" class="form-label">Họ tên (<span class="validation">*</span>)</label>
+                    <input type="text" class="form-input" id="name" placeholder="Hãy Nhập Tên Của Bạn">
+                    <label for="email" class="form-label" >Email (<span class="validation">*</span>)</label>
+                    <input type="text" id="email" class="form-input" placeholder="Hãy Nhập Địa Chỉ Email Của Bạn">
+                </div>
+                <div class="form-row">
+                    <label for="phone" class="form-label">Điện thoại (<span class="validation">*</span>)</label>
+                    <input type="text" class="form-input" id="phone" placeholder="Hãy Nhập Số Điện Thoại Của Bạn">
+                    <label for="guestnumber" class="form-label">Số khách</label>
+                    <input type="text" id="guestnumber" class="form-input" placeholder="Hãy Nhập Số Người Tham Gia Của Bạn">
+                </div>
+                <div class="form-row">
+                    <label for="address" class="form-label">Địa chỉ</label>
+                    <input type="text" class="form-input" id="address" placeholder="Hãy Nhập Địa Chỉ Của Bạn">
+                </div>
+                <div class="form-row">
+                    <label for="" class="form-label">Tiêu đề</label>
+                    <input type="text" class="form-input" id="input-title" placeholder="Hãy Nhập Tiêu Đề Nội Dung Của Bạn">
+                </div>
+                <div class="form-row">
+                    <label for="" class="form-label">Nội dung (<span class="validation">*</span>)</label>
+                </div>
+                <div class="form-row">
+                    <input type="text" class="form-input" id="input-content" placeholder="Hãy Nhập Nội Dung Của Bạn">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Gửi đi">
+                </div>
+            </form>
+            <div class="form-footer">
+                <span class="footer-title">
+                    Travel CE
+                </span>
+                <p><span class="footer-text">Địa chỉ:</span> 669 QL1A, khu phố 3, phường Linh Xuân, Thành phố Thủ Đức, Thành phố Hồ Chí Minh</p> 
+                <p><span class="footer-text">Email:</span> info@travelce.com</p> 
+                <p><span class="footer-text">Facebook:</span> facebook.com/nhom10travelbooking</p> 
+                <p><span class="footer-text">Hotline:</span> <span class="phone-color">0345678999</span> </p> 
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="./assets/js/header.js"></script>
+    <script src="./assets/js/footer.js"></script>
+    <script>
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const phone = document.getElementById('phone');
+        const content = document.getElementById('input-content');  
+        function validateForm(){
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/; 
+            if (name.value == null || name.value == ''){
+                alert("Vui lòng nhập tên");
+                return false;
+            } else if (email.value == null || email.value == ''){
+                    alert("Vui lòng nhập Email");
+                    return false;
+                    }  else if (!filter.test(email.value)){
+                        alert("Email không hợp lệ");
+                        return false;   
+                    } else if (phone.value == null || phone.value == ''){
+                        alert("Vui lòng nhập Số Điện Thoại");
+                        return false;
+                        } else if (phone != '' &&  !/^[0-9]{10}$/.test(phone.value)){
+                            alert("Số Điện Thoại không hợp lệ");
+                            return false;
+                            } else if (content.value == null || content.value == ''){
+                                alert("Vui lòng nhập nội dung");
+                                return false;
+                                }
+        alert("Gửi thành công")                        
+        return true
+                            }
+    
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/account.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <script src="./assets/js/footer.js" defer></script>
+    <script src="./assets/js/header.js" defer></script>
+    <script src="./assets/js/account.js" defer></script>
+</head>
+<body>
+    <div id="header">
+
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="profile">
+                <div class="profile__img">
+                    <img src="./assets/image/makima.png" alt="">
+                </div>
+                <div class="profile__info">
+                    <p class="profile__info-name">Nguyễn Thành Danh</p>
+                    <p class="profile__info-email">thanhdanh123@gmail.com</p>
+                    <p class="profile__info-rank">
+                        <span class="material-icons-sharp">
+                            diamond
+                        </span>
+                        Kim cương
+                    </p>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu__list">
+                    <li><span class="material-icons-sharp">
+                        account_circle
+                        </span>
+                        <a href="account.html" class="menu__link tab-item highlight">Tài khoản</a>
+                        <ul class="menu__sublist tab">
+                            <li class="menu__subitem tablinks" onclick="openInfo(event, 'account')">Thông tin cá nhân</li>
+                            <li class="menu__subitem tablinks" onclick="openInfo(event, 'changePass')">Đổi mật khẩu</li>
+                            <li class="menu__subitem tablinks" onclick="openInfo(event, 'payment')">Thông tin thanh toán</li>
+                            <li class="menu__subitem" id="openModalLogout">Đăng xuất</li>
+                        </ul>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        card_membership
+                        </span>
+                        <a href="points.html" class="menu__link">Tích điểm thành viên</a>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        pending_actions
+                        </span>
+                        <a href="tour_booked.html" class="menu__link">Tour đã đặt</a>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        favorite
+                        </span>
+                        <a href="favorite.html" class="menu__link">Yêu thích đã lưu</a>
+                    </li>
+                    <li><span class="material-icons-sharp">
+                        hotel_class
+                        </span>
+                        <a href="rating.html" class="menu__link">Đánh giá của quý khách</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="account-info tabcontent " id="account">
+                <div class="heading">
+                    <div class="heading__left">
+                        <p class="heading__left-title">Thông tin cá nhân</p>
+                        <p class="heading__left-desc">Hãy bảo vệ thông tin cá nhân của bạn để tránh bị kẻ xấu lợi dụng</p>
+                    </div>
+                    <div class="heading__right">
+                        <span>Chỉnh sửa</span>
+                    </div>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Họ và tên
+                    </span>
+                    <span class="right__item-desc">
+                        Nguyễn Thành Danh
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Địa chỉ email
+                    </span>
+                    <span class="right__item-desc">
+                        thanhdanh123@gmail.com
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Số điện thoại
+                    </span>
+                    <span class="right__item-desc">
+                        0333676260
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Ngày sinh
+                    </span>
+                    <span class="right__item-desc">
+                        27/02/2002
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Giới tính
+                    </span>
+                    <span class="right__item-desc">
+                        Nam
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Quốc tịch
+                    </span>
+                    <span class="right__item-desc">
+                        Việt Nam
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Địa chỉ
+                    </span>
+                    <span class="right__item-desc">
+                        Bình Định
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        CMND/CCCD
+                    </span>
+                    <span class="right__item-desc">
+                        213456789
+                    </span>
+                </div>
+                <div class="right__item">
+                    <span class="right__item-name">
+                        Passport
+                    </span>
+                    <span class="right__item-desc">
+                        Chưa có thông tin
+                    </span>
+                </div>
+            </div>
+            <form class="changePass tabcontent" id="changePass">
+                <div class="changePass-heading">
+                    <div class="heading__left">
+                        <p class="heading__left-title">Đổi mật khẩu</p>
+                        <p class="heading__left-desc">Để bảo vệ tài khoản, vui lòng không chia sẻ với người khác</p>
+                    </div>
+                </div>
+                    <div class="form__row">
+                    <label for="oldpass">Mật khẩu cũ</label>
+                    <input type="password" name="" id="oldpass">
+                   </div>
+                   <div class="form__row">
+                    <label for="oldpass"></label>
+                    <span class="forgot">Quên mật khẩu?</span>
+                   </div>
+                   
+                   <div class="form__row">
+                    <label for="newpass">Mật khảu mới</label>
+                    <input type="password" name="" id="newpass">
+                   </div>
+                   <div class="form__row">
+                    <label for="newpassagain">Nhập lại mật khẩu mới</label>
+                    <input type="password" name="" id="newpassagain">
+                   </div>
+                   <div class="form__row">
+                    <label for=""></label>
+                    <button>Đổi mật khẩu</button>
+                   </div>
+            </form>
+            <div class="paymentMethod tabcontent" id="payment">
+                <div class="changePass-heading">
+                    <div class="heading__left">
+                        <p class="heading__left-title">Thông tin thanh toán</p>
+                        <p class="heading__left-desc">Thêm hoặc bỏ các phương thức thanh toán một cách bảo mật để dễ đặt hơn.</p>
+                    </div>
+                </div>
+                <div class="paymentMethod__detail" >
+                    <label for="">Thẻ</label>
+                    <span class="form__row-desc">Chưa có thẻ thanh toán</span>
+                    <div class="heading__right">
+                        <span>Chỉnh sửa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal__logout" id="modal">
+        <div class="modal__logout-content">
+            <div class="modal__logout-content--title">
+                Bạn có chắc chắn muốn đăng xuất?
+            </div>
+            <div class="modal__logout-content--confirm">
+                <button class="modal__close" onclick="location.href='home.html';">Có</button>
+                <button class="modal__close">Không</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+</html>

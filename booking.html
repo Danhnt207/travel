@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link rel="stylesheet" href="./assets/css/booking.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+
+    <!-- Link js -->
+    <script src="./assets/js/header.js" defer></script>
+    <script src="./assets/js/footer.js" defer></script>
+    <!-- Google Icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header" class="header"></div>
+    <div class="main">
+      <div class="process">
+        <span class="step1 bold">1. Nhập thông tin</span>
+        <span>></span>
+        <span class="step2">2. Thanh toán</span>
+      </div>
+
+      <div class="body">
+        <div class="col-left">
+          <!-- Product -->
+          <div id="product" class="product row"></div>
+          <!-- Product End -->
+          <!-- Form -->
+          <form
+            id="infoForm"
+            target="_blank"
+            method="get"
+            class="customer-info"
+          >
+            <input class="id" type="hidden" name="id" value="" />
+            <h2 class="form__title">Tổng quan về chuyến đi</h2>
+            <h3 for="" class="form__title">Thông tin liên lạc</h3>
+            <div class="form-field">
+              <div class="row">
+                <label for="fullName" class="form__label width-50"
+                  >Họ và tên <span class="red">(*)</span></label
+                >
+                <label for="email" class="form__label width-50"
+                  >Email<span class="red">(*)</span></label
+                >
+              </div>
+              <div class="row">
+                <input
+                  type="text"
+                  class="form__input width-50"
+                  name="fullName"
+                  id="fullName"
+                  required
+                />
+                <input
+                  type="text"
+                  class="form__input width-50"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div class="row">
+                <label for="phone" class="form__label width-50"
+                  >Số điện thoại <span class="red">(*)</span></label
+                >
+                <label for="address" class="form__label width-50"
+                  >Địa chỉ</label
+                >
+              </div>
+              <div class="row">
+                <input
+                  type="text"
+                  class="form__input width-50"
+                  name="phone"
+                  id="phone"
+                />
+                <input
+                  type="text"
+                  class="form__input width-50"
+                  name="address"
+                  id="address"
+                />
+              </div>
+            </div>
+            <h3 for="" class="form__title">Hành khách</h3>
+            <div class="row">
+              <div class="width-50 form__input">
+                <span class="label"> Người lớn ( > 12 tuổi) </span>
+                <span
+                  onclick="descreaseInput('.quantity-1'); addAdult();updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  remove_circle_outline </span
+                ><input
+                  class="quantity-1"
+                  type="number"
+                  step="1"
+                  min="0"
+                  value="0"
+                  onclick=""
+                />
+                <span
+                  onclick="increaseInput('.quantity-1') ; addAdult();updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  add_circle_outline
+                </span>
+              </div>
+              <div class="width-50 form__input">
+                <span class="label"> Trẻ em ( từ 5 - 11 tuổi) </span>
+                <span
+                  onclick="descreaseInput('.quantity-2') ; addChildren();updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  remove_circle_outline </span
+                ><input
+                  class="quantity-2"
+                  type="number"
+                  step="1"
+                  min="0"
+                  value="0"
+                /><span
+                  onclick="increaseInput('.quantity-2') ; addChildren();updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  add_circle_outline
+                </span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="width-50 form__input">
+                <span class="label"> Trẻ nhỏ ( từ 2 - 4 tuổi) </span>
+                <span
+                  onclick="descreaseInput('.quantity-3');updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  remove_circle_outline </span
+                ><input
+                  class="quantity-3"
+                  type="number"
+                  step="1"
+                  min="0"
+                  value="0"
+                /><span
+                  onclick="increaseInput('.quantity-3');updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  add_circle_outline
+                </span>
+              </div>
+              <div class="width-50 form__input">
+                <span class="label"> Em bé ( từ 0 - 2 tuổi) </span>
+                <span
+                  onclick="descreaseInput('.quantity-4');updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  remove_circle_outline </span
+                ><input
+                  class="quantity-4"
+                  type="number"
+                  step="1"
+                  min="0"
+                  value="0"
+                /><span
+                  onclick="increaseInput('.quantity-4');updateCustomer();calTotalPrice()"
+                  class="icon material-icons-sharp"
+                >
+                  add_circle_outline
+                </span>
+              </div>
+            </div>
+            <div class="form-field">
+              <div class="row">
+                <span class="width-50"
+                  >Người lớn:
+                  <span class="form__title">sinh trước ngày 26/11/2010</span>
+                </span>
+                <span class="width-50"
+                  >Trẻ em:
+                  <span class="form__title"
+                    >sinh từ 27/11/2010 đến 26/11/2017</span
+                  >
+                </span>
+              </div>
+              <div class="row">
+                <span class="width-50"
+                  >Trẻ nhỏ:
+                  <span class="form__title">
+                    sinh từ 27/11/2017 đến 26/11/2020</span
+                  ></span
+                >
+                <span class="width-50"
+                  >Em bé:
+                  <span class="form__title"> sinh từ 27/11/2020</span></span
+                >
+              </div>
+            </div>
+            <h3 for="" class="form__title">Thông tin hành khách</h3>
+            <div class="row">
+              <span class="form__title">Người lớn</span>
+            </div>
+            <div id="adult" class="form-field"></div>
+            <div class="row">
+              <span class="form__title">Trẻ em</span>
+            </div>
+            <div id="children" class="form-field"></div>
+            <h3 for="" class="form__title">Đặt phòng khách sạn</h3>
+            <div class="form-field">
+              <table>
+                <tr>
+                  <th>Loại phòng</th>
+                  <th>Số lượng</th>
+                  <th>Giá tiền</th>
+                </tr>
+                <tr id="single">
+                  <td>
+                    <input
+                      onchange="openRow('single');update()"
+                      class="form__input"
+                      type="checkbox"
+                      name=""
+                      id="single-room"
+                    />
+                    <label for="single-room"
+                      >Phòng Single (1 giường đơn cho 1 người)
+                    </label>
+                  </td>
+                  <td>
+                    <input
+                      class="form__input width-30"
+                      type="text"
+                      name=""
+                      id="single_num"
+                      oninput="update();calTotalPrice()"
+                    />
+                  </td>
+                  <td class="single-room-price"></td>
+                </tr>
+                <tr id="twin">
+                  <td>
+                    <input
+                      class="form__input"
+                      onchange="openRow('twin');update()"
+                      type="checkbox"
+                      name=""
+                      id="twin-room"
+                    />
+                    <label for="twin-room"
+                      >Phòng twin (1 giường đôi cho 2 người)</label
+                    >
+                  </td>
+                  <td>
+                    <input
+                      class="form__input width-30"
+                      type="text"
+                      name=""
+                      id="twin_num"
+                      oninput="update();calTotalPrice()"
+                    />
+                  </td>
+                  <td class="twin-room-price"></td>
+                </tr>
+                <tr id="double">
+                  <td>
+                    <input
+                      onchange="openRow('double');update()"
+                      class="form__input"
+                      type="checkbox"
+                      name=""
+                      id="double-room"
+                    />
+                    <label for="double-room"
+                      >Phòng double (2 giường đơn cho 2 người)</label
+                    >
+                  </td>
+                  <td>
+                    <input
+                      class="form__input width-30"
+                      type="text"
+                      name=""
+                      id="double_num"
+                      oninput="update();calTotalPrice()"
+                    />
+                  </td>
+                  <td class="double-room-price"></td>
+                </tr>
+                <tr id="triple">
+                  <td>
+                    <input
+                      class="form__input"
+                      onchange="openRow('triple');update()"
+                      type="checkbox"
+                      name=""
+                      id="triple-room"
+                    />
+                    <label for="triple-room"
+                      >Phòng ba (1 giường đôi và 1 giường đơn cho 3
+                      người)</label
+                    >
+                  </td>
+                  <td>
+                    <input
+                      class="form__input width-30"
+                      type="text"
+                      name=""
+                      id="triple_num"
+                      oninput="update();calTotalPrice()"
+                    />
+                  </td>
+                  <td class="triple-room-price"></td>
+                </tr>
+              </table>
+            </div>
+            <div class="row">Quý khách có lưu ý gì? Hãy nói với chúng tôi!</div>
+            <div class="form-field">
+              <div class="row">
+                <span class="width-30">
+                  <input class="form__input" type="checkbox" name="" id="" />Hút
+                  thuốc
+                </span>
+                <span class="width-30">
+                  <input
+                    class="form__input"
+                    type="checkbox"
+                    name=""
+                    id=""
+                  />Phòng tầng cao
+                </span>
+                <span class="width-30">
+                  <input class="form__input" type="checkbox" name="" id="" />Trẻ
+                  em hiếu động
+                </span>
+              </div>
+              <div class="row">
+                <span class="width-30">
+                  <input class="form__input" type="checkbox" name="" id="" />Ăn
+                  chay
+                </span>
+                <span class="width-30">
+                  <input class="form__input" type="checkbox" name="" id="" />Có
+                  người khuyết tật
+                </span>
+                <span class="width-30">
+                  <input class="form__input" type="checkbox" name="" id="" />Phụ
+                  nữ có thai
+                </span>
+              </div>
+              <div class="row">
+                <span>Ghi chú thêm</span>
+              </div>
+              <div class="row">
+                <textarea
+                  class="form__input width-100"
+                  placeholder="Vui lòng nhập nội dung tại đây"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+          </form>
+          <!-- Form End -->
+        </div>
+
+        <!-- Payment info -->
+        <div class="summarization-info col-right">
+          <div class="support-info">
+            <div class="support-info__label">Quý khách cần hỗ trợ?</div>
+            <div class="row">
+              <a class="support-info__btn" href="tel:01032002">
+                <span class="icon material-icons-sharp"> add_ic_call </span> Gọi
+                miễn phí qua internet
+              </a>
+              <a
+                class="support-info__btn"
+                href="mailto:lelam2002@gmail.com?subject='Support about tour booking'"
+              >
+                <span class="icon material-icons-sharp"> mail </span> Gửi yêu
+                cầu hỗ trợ
+              </a>
+            </div>
+          </div>
+          <div class="payment-info">
+            <div class="row">
+              <h3 class="form__title">Tóm tắt chuyến đi</h3>
+            </div>
+            <div id="payment-product"></div>
+
+            <div class="row">
+              <label class="form__title" for=""
+                ><span class="icon material-icons-sharp"> people </span> Hành
+                khách</label
+              >
+            </div>
+            <div class="customer"></div>
+            <div class="row">
+              <label for="" class="form__title">
+                <span class="icon material-icons-sharp"> apartment </span> Đặt
+                phòng khách sạn
+              </label>
+            </div>
+            <div class="hotel"></div>
+
+            <div class="row">
+              <label for="" class="form__title giftcode"
+                ><span class="icon material-icons-sharp"> card_giftcard </span
+                >Mã giảm giá</label
+              >
+              <button class="form__btn add-code-btn">Thêm mã</button>
+              <button class="form__btn app-btn">Áp dụng</button>
+            </div>
+            <hr />
+            <div class="row between row-total-price">
+              <label for="" class="form__title">Tổng cộng</label>
+              <label id="total-price" for="" class="form__title"></label>
+            </div>
+            <div class="row new-btn-submit">
+              <input
+                id="submit"
+                type="submit"
+                class="form__btn btn-submit"
+                value="Đặt ngay"
+                onclick="validationInput() "
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Payment info End -->
+      </div>
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="modal__method-name"> Thanh toán</span>
+            <span
+              onclick="closeModal(modal)"
+              class="js-modal-close material-icons-sharp"
+            >
+              close
+            </span>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+      <!-- End of modal -->
+    </div>
+    <div id="footer" class="footer"></div>
+    <div class="hidden adult-price"></div>
+    <div class="hidden children-price"></div>
+    <div class="hidden kid-price"></div>
+    <div class="hidden baby-price"></div>
+    <div class="hidden discount"></div>
+    <div class="hidden fullName"></div>
+  </body>
+  <script src="./assets/js/booking.js"></script>
+</html>

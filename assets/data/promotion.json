@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "Tết đi chơi - thảnh thơi khám phá",
+        "description": "Vào mỗi dịp nghỉ lễ là mọi người thường sắp xếp thời gian để thưởng cho bản thân và gia đình một chuyến du lịch. Gác lại những âu lo, muộn phiền của năm cũ để cùng những người thân yêu <b>“đi chơi - thảnh thơi khám phá”</b>. Nhân dịp <b>Tết Nguyên Đán Quý Mão 2023. Travel CE</b>  luôn đồng hành cùng quý khách trong những chuyến đi chơi và cung cấp cho khách hàng trải nghiệm những hành trình du xuân hấp dẫn cùng nhiều ưu đãi “khủng”.",
+        "date": "15/12/2022 - 15/02/2023",
+        "image": "promotion1.png"
+      },
+      {
+        "id": "2",
+        "title": "Chistmas Big Sale",
+        "description": "Du lịch giáng sinh đã trở thành dịp cho nhiều gia đình quây quần xung họp bên nhau, dưới khí trời se se lạnh. <b>Noel 2022</b> vào trúng ngày cuối tuần vì thế rất thuận tiện cho những hành khách có ý định đi chơi xa dịp noel cũng như nghỉ ngơi sau 1 tuần làm việc mệt mỏi. Chính vì thế, <b>Travel CE</b> có những tour du lịch vào noel cho khách hàng lựa chọn cùng với đó là khuyến mãi hấp dẫn.",
+        "date": "15/12/2022 - 25/12/2022",
+        "image": "promotion2.png"
+      },
+      {
+        "id": "3",
+        "title": "Săn deal Black Friday năm 2022 cùng Travel CE",
+        "description": "<b>Black Friday</b> ngày thứ 6 của tuần thứ tư của tháng 11. <b>Black Friday</b> là ngày mua sắm lớn với nhiều chiến dịch giảm giá sâu, nhiều deal hấp dẫn. Dịp Black Friday năm <b>2022</b>, <b>Travel CE</b> đưa ra các chương trình khuyến mãi với nhiều ưu đãi hấp dẫn dành cho khách hàng. Săn ngay những deal khủng với mức giảm giá tới <b>50%.</b>",
+        "date": "23/11/2022 - 26/11/2022",
+        "image": "promotion3.png"
+      },
+      {
+        "id": "4",
+        "title": "Du lịch biển hè 2022",
+        "description": "Vào dịp Hè, những vùng biển rất được khách du lịch ưa chuộng bởi vì sự trong lành và mát mẻ. Thường các gia đình sẽ cho con em đi chơi sau một năm học, dịp này các tour du lịch rất đa dạng. <b>Du lịch biển</b> cũng rất lý tưởng để bạn cùng gia đình tránh đi cái nắng oi ả của ngày hè.  Để đáp ứng nhu cầu của hành khách, <b>Travel CE</b> sẽ cung cấp những tour Biển đảo phù hợp cho các gia đình.",
+        "date": "15/06/2022 - 15//07/2022",
+        "image": "promotion4.png"
+      },
+      {
+        "id": "5",
+        "title": "Nghỉ dưỡng dịp lễ 30/4 - 1/5",
+        "description": "Chúng ta lại sắp sửa chào đón hai ngày lễ quan trọng trong năm đó chính là ngày 30/4 và 1/5. Đây cũng chính là dịp để mọi người có thời gian tận hưởng, thư giãn bên cạnh gia đình vì thường dịp lễ này sẽ được nghỉ nhiều ngày hơn. Không những vậy nhân cơ hội được nghỉ dài ngày nhiều chuyến đi du lịch cũng được lên lịch sẵn. Mọi người thường đi du lịch với nhau để nghỉ ngơi, thư giãn.",
+        "date": "25/05/2022 - 02/05/2022",
+        "image": "promotion5.png"
+      }
+]

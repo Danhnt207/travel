@@ -1,0 +1,405 @@
+
+.main {
+    display: flex;
+    background-color: rgb(33, 146, 255, 0.1);
+    width: calc(100% - 300px);
+    margin: 80px  auto 10px auto;
+    border-radius: 15px;
+}
+.left {
+    flex-basis: 30%;
+}
+.right {
+    flex-basis: 70%;
+    margin: 12px;
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.profile {
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.profile__img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile__info {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hightlight {
+    color: var(--blue-color) !important;
+}
+.profile__info-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--blue-color);
+    margin-bottom: 8px;
+}
+.profile__info-email, .profile__info-rank {
+    font-size: 1.6rem;
+    color: var(--blue-color);
+    margin-bottom: 8px;
+}
+.profile__info-rank {
+    display: flex;
+    align-items: center;
+}
+.profile__info-rank span {
+    margin-right: 8px;
+}
+
+.menu {
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.menu__list {
+    list-style: none;
+
+}
+.menu__list li {
+    /* display: flex;
+    align-items: center; */
+    margin: 8px 0;
+    cursor: pointer;
+
+}
+.menu__link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #000;
+    margin-left: 6px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 12px;
+    border-bottom: 1px solid #ccc;
+}
+.heading__left {
+    display: flex;
+    flex-direction: column;
+}
+.heading__left-title {
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.heading__left-desc {
+    font-size: 1.6rem;
+    margin-top: 4px;
+}
+.heading__right span {
+    font-size: 1.6rem;
+    color: var(--blue-color);
+    text-decoration: underline;
+    font-weight: 600;
+}
+.right__item {
+    padding: 16px 12px;
+    border-bottom: 1px solid #ccc;
+
+}
+.right__item-name {
+    font-size: 1.7rem;
+    font-weight: 550;
+    display: inline-block;
+    width: 400px;
+}
+.right__item-desc {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.menu__sublist {
+    list-style: none;
+    margin-left: 40px;
+}
+.menu__subitem {
+    font-size: 1.4rem;
+}
+.account-info {
+    /* display: none; */
+}
+
+/*Đổi mật khẩu*/
+.changePass-heading {
+    padding: 16px 12px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+.form__row {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+.form__row label {
+    width: 300px;
+    font-size: 1.7rem;
+    font-weight: 550;
+    color: #000;
+    padding: 0 12px;
+}
+.form__row span {
+    font-size: 1.6rem;
+    color: var(--blue-color);
+    margin: 4px 0;
+}
+.form__row input {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 8px;
+    border: 0.5px solid #555;
+} 
+.form__row button {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F01212;
+    font-size: 1.7rem;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.paymentMethod__detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+.paymentMethod__detail label {
+    font-size: 1.7rem;
+    font-weight: 550;
+    color: #000;
+    padding: 0 12px;
+}
+.paymentMethod__detail span {
+    font-size: 1.7rem;
+}
+.tab li.active {
+    color: #F01212;
+}
+.tabcontent {
+    display: none;
+}
+
+/*Modal*/
+.modal__logout {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal__logout-content {
+    width: 400px;
+    height: 150px;
+    margin: 200px auto;
+    background-color: var(--white-color);
+    padding: 20px;
+    border-radius: 10px;
+    animation: modalFadein ease 0.6s;
+
+}
+.modal__logout-content--title {
+    font-size: 1.8rem;
+    color: var(--blue-color);
+}
+.modal__logout-content--confirm {
+    display: flex;
+    justify-content: center;
+}
+.modal__logout-content--confirm button {
+    background-color: #F01212;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    border: none;
+    color: var(--white-color);
+    margin: 30px 20px 0 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.modal__logout.active {
+    display: block;
+}
+.modal__rating.active {
+    display: block;
+}
+@keyframes modalFadein {
+    from {
+      transform: translateY(-150px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes menuFadein {
+    from {
+      transform: translateY(-100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  /*Tour đã đặt--------------*/
+  .maybe-like__item {
+    width: 25%;
+    margin: 0 12px;
+    /* padding: 12px; */
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.maybe-like__item-img {
+    width: 100%;
+}
+.maybe-like__item-img img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.maybe-like__item-date {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 8px 0;
+    padding: 0 8px;
+}
+.maybe-like__item-title {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 550;
+    padding: 0 8px;
+    margin: 8px 0;
+}
+.maybe-like__item-departure {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    padding: 0 8px;
+    margin: 8px 0;
+}
+.maybe-like__item-price {
+    color: var(--red-color);
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding: 0 8px 8px 8px;
+    margin: 9px 0;
+}
+.list_tour {
+    display: flex;
+}
+.maybe-like__item-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.maybe-like__item-btn button:nth-child(1) {
+    background-color: var(--red-color);
+    color: #fff;
+    font-weight: 600;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+.maybe-like__item-btn button:nth-child(2) {
+    background-color: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 4px 12px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+
+}
+.maybe-like__item-btn--rating {
+    margin-left: 12px;
+}
+/*--------Modal rating---------*/
+
+.modal__rating {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal__rating-content {
+    width: fit-content;
+    margin: 200px auto;
+    background-color: var(--white-color);
+    padding: 20px;
+    border-radius: 10px;
+    animation: modalFadein ease 0.6s;
+
+}
+.modal__rating-content--title {
+    font-size: 1.8rem;
+    color: var(--blue-color);
+}
+
+
+.form-rating__row {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+.form-rating__row  label {
+    font-size: 1.6rem;
+    font-weight: 550;
+    width: 200px;
+}
+.form-rating__row input, textarea {
+    border: 1px solid var(--primary-color);
+    font-size: 1.6rem;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.form-rating__row input:focus, textarea:focus {
+    outline: 1px solid var(--primary-color);
+}
+.form-rating__row-btn {
+    display: flex;
+    justify-content: center;
+}
+.form-rating__row-btn button:nth-child(1) {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 4px 16px;
+    margin-right: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form-rating__row-btn button:nth-child(2) {
+    background-color: var(--red-color);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 4px 16px;
+    margin-right: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
